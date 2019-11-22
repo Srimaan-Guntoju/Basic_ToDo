@@ -2,11 +2,11 @@ var list = document.querySelector('ul')
 var input = document.querySelector('input')
 var button = document.querySelector('button')
 button.onclick = function () {
-    	const txt = input.value
-    	input.value = ''
-    	console.log(txt)
-    	const listItem = document.createElement('li')
-    	const checkboxItem = document.createElement('INPUT')
+  const txt = input.value
+  input.value = ''
+  // console.log(txt)
+  const listItem = document.createElement('li')
+  const checkboxItem = document.createElement('INPUT')
   checkboxItem.setAttribute('type', 'checkbox')
   const itemContent = document.createElement('label')
   const listBtn = document.createElement('button')
